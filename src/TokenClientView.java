@@ -3,16 +3,16 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.io.PrintStream;
-import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 /*
  *
  * @author Rafael Lima, rafaelslima@unifei.edu.br
  */
-public class TokenClientView{
+public class TokenClientView {
 
 
     TokenClient tokenClient;
@@ -50,27 +50,47 @@ public class TokenClientView{
                     PrintStream ps = new PrintStream(clntSock2.getOutputStream());
                     ps.println("token");
                     clntSock2.close();
+                    tokenClient.enviar("campoTexto", campoTexto.getText());
                 } catch (IOException ex) {
                     Logger.getLogger(TokenClientView.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
         });
+
     }
-
-
 
 
     public void start() {
 
         frame.setContentPane(this.panelMain);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                try {
+                    tokenClient.clntSock.close();
+                    tokenClient.setListenThread(null);
+                    tokenClient = null;
+                }
+                catch(Exception err){
+                    tokenClient = null;
+
+                }
+
+                e.getWindow().dispose();
+            }
+        });
         frame.pack();
         frame.setVisible(true);
 
     }
 
-    public JTextArea getCampoTexto() {
-        return campoTexto;
+    public String getCampoTexto() {
+        return campoTexto.getText();
+    }
+
+    public void setCampoTexto(String campoTexto) {
+        this.campoTexto.setText(campoTexto);
     }
 
     public void setCampoTextoEditable(boolean valor) {
@@ -80,4 +100,6 @@ public class TokenClientView{
     public void setLabelEditMode(boolean visible) {
         this.labelEditMode.setVisible(visible);
     }
+
+
 }

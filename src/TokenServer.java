@@ -23,7 +23,7 @@ public class TokenServer {
     private DatagramSocket socket = new DatagramSocket(servPort);
     private List<Integer> tokenRing = new ArrayList<Integer>();
     private boolean ringWorking = false;
-
+    private String campoTexto;
 
     public TokenServer() throws IOException {
 
@@ -42,13 +42,13 @@ public class TokenServer {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            Logger.getLogger(Cliente3.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(TokenServer.class.getName()).log(Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            Logger.getLogger(Cliente3.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(TokenServer.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            Logger.getLogger(Cliente3.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(TokenServer.class.getName()).log(Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            Logger.getLogger(Cliente3.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(TokenServer.class.getName()).log(Level.SEVERE, null, ex);
         }
         //</editor-fold>
         System.out.print("\n[Servidor] Iniciado.\n");
@@ -107,6 +107,9 @@ public class TokenServer {
             case "presence":
                 presenceCliente(entrada);
                 break;
+            case "campoTexto":
+                setCampoTexto(dados);
+                break;
             default:
                 System.out.print("[Servidor] Entrada não analisada");
         }
@@ -120,6 +123,7 @@ public class TokenServer {
         user.put("ipCliente", packet.getAddress().getHostAddress());
         user.put("portCliente", "" + packet.getPort());
         user.put("isOnline", Boolean.TRUE.toString());
+        user.put("isUpdated", Boolean.FALSE.toString());
 
         cliente_hash.put(cliente_id, user.toString());
 
@@ -147,13 +151,40 @@ public class TokenServer {
 
     }
 
+    public int count_presence(){
+        int atual = clientesObjs.size();
+        int count = 0;
+        for (TokenClient tc : clientesObjs){
+            if(tc.isOnline()){
+                count++;
+            }
+
+        }
+        if(atual != count){
+            System.out.println("Diferente");
+        }
+        return count;
+    }
     public void check_presence() throws IOException {
+
         Timer timer = new Timer();
 
         timer.scheduleAtFixedRate(new TimerTask() {
 
             @Override
             public void run() {
+                for (String key : clientes.keySet()) {
+                    Map<String, String> user = null;
+                    try {
+                        user = stringToHash(clientes.get(key));
+                        user.put("isOnline", Boolean.FALSE.toString());
+                        clientes.put(key, user.toString());
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+
+                }
+
                 for (String key : clientes.keySet()) {
 
                     try {
@@ -162,6 +193,9 @@ public class TokenServer {
                         // Envia touch para o cliente
 
                         enviar("touch", key, user);
+                        if(user.get("campoTexto") != null){
+                            enviar("campoTexto", user.get("campoTexto"), user);
+                        }
 
                     } catch (IOException e) {
                         System.err.print("[Servidor] Cliente erro");
@@ -170,8 +204,9 @@ public class TokenServer {
 
                 }
             }
-        }, 2000, 5000);
+        }, 2000, 2000);
 
+        count_presence();
     }
 
     public boolean enviar(String tipo, String mensagem, Map<String, String> cliente) {
@@ -278,6 +313,7 @@ public class TokenServer {
             hash.put((String) e.getKey(), (String) e.getValue());
         }
 
+        hash.put("campoTexto", getCampoTexto());
         return hash;
     }
 
@@ -349,5 +385,25 @@ public class TokenServer {
         Map<String, String> antCliente = stringToHash(clientes.get(String.valueOf(antId)));
         enviar("changeIO", changeInfo, antCliente);
         return novoLinkPort;
+    }
+
+    public String getCampoTexto() {
+        return campoTexto;
+    }
+
+    public void setCampoTexto(String[] dados) throws IOException{
+        String cliente_id = dados[1];
+        for (String key : clientes.keySet()) {
+            Map<String, String> user = stringToHash(clientes.get(key));
+            if(cliente_id.equals(key)){
+                user.put("isUpdated", Boolean.TRUE.toString());
+            }
+            else{
+                user.put("isUpdated", Boolean.FALSE.toString());
+            }
+            clientes.put(cliente_id, user.toString());
+        }
+        String texto = dados[2];
+        this.campoTexto = texto;
     }
 }

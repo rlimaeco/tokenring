@@ -137,6 +137,9 @@ public class TokenClient {
             case "changeIO":
                 changeIO(dados);
                 break;
+            case "campoTexto":
+                atualizaCampoTexto(entrada);
+                break;
             default:
                 System.out.print("\n[Cliente "+ clienteId+"] Entrada não analisada\n");
                 System.out.print(entrada);
@@ -216,13 +219,15 @@ public class TokenClient {
                         this.view.setLabelEditMode(true);
                     } else {
                         try {
-                            System.out.println("[Cliente "+ clienteId+"] Acesso não Requisitado");
-                            Thread.sleep(2000);
-                            Socket clntSock2 = new Socket("localhost", sendPort);
-                            ps = new PrintStream(clntSock2.getOutputStream());
-                            ps.println("token");
-                            ps.close();
-                            clntSock2.close();
+                            if(running) {
+                                System.out.println("[Cliente " + clienteId + "] Acesso não Requisitado");
+                                Thread.sleep(2000);
+                                Socket clntSock2 = new Socket("localhost", sendPort);
+                                ps = new PrintStream(clntSock2.getOutputStream());
+                                ps.println("token");
+                                ps.close();
+                                clntSock2.close();
+                            }
                         } catch (InterruptedException ex) {
                             running = false;
                             clntSock.close();
@@ -300,6 +305,14 @@ public class TokenClient {
         }, 2500, 2500);
     }
 
+    public void atualizaCampoTexto(String texto){
+        String atual = this.view.getCampoTexto();
+
+        if(!atual.equals(texto) && !requestToken){
+            this.view.setCampoTexto(texto);
+        }
+    }
+
     public void touchPresence() throws IOException {
 
         String touch = new String("presence|" + clienteId);
@@ -315,10 +328,10 @@ public class TokenClient {
 
     }
 
-    public boolean enviar(String tipo, String mensagem, Map<String, String> cliente) {
+    public boolean enviar(String tipo, String mensagem) {
 
         try {
-            String msg = new String(tipo + "|" + mensagem);
+            String msg = new String(tipo + "|" + getClienteId() + "|" + mensagem);
             byte[] bytesToSend = GetBytes(msg);
 
             DatagramPacket sendPacket = new DatagramPacket(bytesToSend,
@@ -452,5 +465,13 @@ public class TokenClient {
 
     public void setClienteId(String clienteId) {
         this.clienteId = clienteId;
+    }
+
+    public Thread getListenThread() {
+        return listenThread;
+    }
+
+    public void setListenThread(Thread listenThread) {
+        this.listenThread = listenThread;
     }
 }
