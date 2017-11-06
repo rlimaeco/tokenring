@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96264fe1-98b9-4f05-a3e8-a699288069e7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tokenring" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5794956">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="TokenClient.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/TokenClient.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="367">
+                  <caret line="321" column="43" lean-forward="true" selection-start-line="321" selection-start-column="43" selection-end-line="321" selection-end-column="43" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1165#1174#0" expanded="true" />
+                    <element signature="e#3828#3829#0" expanded="true" />
+                    <element signature="e#3859#3860#0" expanded="true" />
+                    <element signature="e#7886#8047#0" expanded="true" />
+                    <element signature="e#8046#8047#0" expanded="true" />
+                    <element signature="e#8313#9427#0" expanded="true" />
+                    <element signature="e#9426#9427#0" expanded="true" />
+                    <element signature="e#11554#11555#0" expanded="true" />
+                    <element signature="e#11596#11597#0" expanded="true" />
+                    <element signature="e#11629#11630#0" expanded="true" />
+                    <element signature="e#11658#11659#0" expanded="true" />
+                    <element signature="e#12355#12371#0" expanded="true" />
+                    <element signature="e#13082#13083#0" expanded="true" />
+                    <element signature="e#13117#13118#0" expanded="true" />
+                    <element signature="e#13174#13175#0" expanded="true" />
+                    <element signature="e#13222#13223#0" expanded="true" />
+                    <element signature="e#13258#13259#0" expanded="true" />
+                    <element signature="e#13290#13291#0" expanded="true" />
+                    <element signature="e#13340#13341#0" expanded="true" />
+                    <element signature="e#13382#13383#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TokenClientView.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/TokenClientView.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="28">
+                  <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#991#992#0" expanded="true" />
+                    <element signature="e#1050#1051#0" expanded="true" />
+                    <element signature="e#2370#2371#0" expanded="true" />
+                    <element signature="e#2424#2425#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TokenClientView.form" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/TokenClientView.form">
+              <provider selected="true" editor-type-id="ui-designer">
+                <state />
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="TokenServer.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/TokenServer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="663">
+                  <caret line="349" column="8" lean-forward="false" selection-start-line="349" selection-start-column="8" selection-end-line="349" selection-end-column="8" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#578#594#0" expanded="true" />
+                    <element signature="e#715#724#0" expanded="true" />
+                    <element signature="e#928#1015#0" expanded="true" />
+                    <element signature="e#2368#2964#0" expanded="true" />
+                    <element signature="e#2963#2964#0" expanded="true" />
+                    <element signature="e#4033#4049#0" expanded="true" />
+                    <element signature="e#4107#4123#0" expanded="true" />
+                    <element signature="e#6548#6549#0" expanded="true" />
+                    <element signature="e#6580#6581#0" expanded="true" />
+                    <element signature="e#8816#8832#0" expanded="true" />
+                    <element signature="e#9758#9759#0" expanded="true" />
+                    <element signature="e#9804#9805#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TokenServerView.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/TokenServerView.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1088">
+                  <caret line="66" column="62" lean-forward="false" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user</find>
+      <find>notify</find>
+      <find>interrupt(</find>
+      <find>interrupt</find>
+      <find>identificarCliente</find>
+      <find>running = t</find>
+      <find>run</find>
+      <find>= null</find>
+      <find>200</find>
+      <find>return Tok</find>
+      <find>startToken</find>
+      <find>start</find>
+      <find>istoke</find>
+      <find>istoken</find>
+      <find>startTo</find>
+      <find>presenç</find>
+      <find>2000</find>
+      <find>println</find>
+      <find>wait</find>
+      <find>listenTo</find>
+      <find>startTok</find>
+      <find>reuse</find>
+      <find>startT</find>
+      <find>Acesso</find>
+      <find>[Cliente]</find>
+      <find>enviar</find>
+      <find>String[]</find>
+      <find>clnt</find>
+      <find>env</find>
+      <find>send</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>MSGMAX</replace>
+      <replace>ipCliente</replace>
+      <replace>setCliente</replace>
+      <replace>clienteId</replace>
+      <replace>touchPresence</replace>
+      <replace>print(&quot;[Servidor]</replace>
+      <replace>print(&quot;\n[Cliente]</replace>
+      <replace>println(&quot;[Cliente]</replace>
+      <replace>print(&quot;[Cliente]</replace>
+      <replace>println(&quot;[Servidor]</replace>
+      <replace>servidor</replace>
+      <replace>Document</replace>
+      <replace>readStatus</replace>
+      <replace>[Cliente &quot;+ clienteId+&quot;]</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Cliente1.java" />
+        <option value="$PROJECT_DIR$/src/Cliente2.java" />
+        <option value="$PROJECT_DIR$/src/Cliente3.java" />
+        <option value="$PROJECT_DIR$/src/TokenServerView.form" />
+        <option value="$PROJECT_DIR$/src/Editor.java" />
+        <option value="$PROJECT_DIR$/src/Document.java" />
+        <option value="$PROJECT_DIR$/src/utils.java" />
+        <option value="$PROJECT_DIR$/src/TokenServerView.java" />
+        <option value="$PROJECT_DIR$/src/TokenServer.java" />
+        <option value="$PROJECT_DIR$/src/TokenClientView.java" />
+        <option value="$PROJECT_DIR$/src/TokenClientView.form" />
+        <option value="$PROJECT_DIR$/src/TokenClient.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="61" />
+    <option name="y" value="24" />
+    <option name="width" value="1310" />
+    <option name="height" value="676" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tokenring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tokenring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tokenring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tokenring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tokenring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tokenring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TokenClientView" type="e9f4de52:FormNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projetos/libs/JRichTextEditor" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TokenServer">
+    <configuration name="Cliente2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Cliente2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tokenring" />
+      <envs />
+    </configuration>
+    <configuration name="Cliente3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Cliente3" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tokenring" />
+      <envs />
+    </configuration>
+    <configuration name="Document" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Document" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tokenring" />
+      <envs />
+    </configuration>
+    <configuration name="Ekit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hexidec.ekit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.hexidec.ekit.Ekit" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="TokenServer" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TokenServer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tokenring" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tokendoc" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.TokenServer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Cliente2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Cliente3" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Ekit" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Document" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.TokenServer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Document" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Ekit" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Cliente2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Cliente3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96264fe1-98b9-4f05-a3e8-a699288069e7" name="Default" comment="" />
+      <created>1508781811234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508781811234</updated>
+      <workItem from="1508781816985" duration="1716000" />
+      <workItem from="1508783866330" duration="2992000" />
+      <workItem from="1508789950963" duration="8561000" />
+      <workItem from="1508811925622" duration="37000" />
+      <workItem from="1508898442648" duration="13670000" />
+      <workItem from="1508953936910" duration="3783000" />
+      <workItem from="1508971952264" duration="1939000" />
+      <workItem from="1508979268549" duration="610000" />
+      <workItem from="1509015526297" duration="258000" />
+      <workItem from="1509042578363" duration="3396000" />
+      <workItem from="1509049697276" duration="5864000" />
+      <workItem from="1509068683532" duration="6856000" />
+      <workItem from="1509118825100" duration="8050000" />
+      <workItem from="1509153272069" duration="3730000" />
+      <workItem from="1509303549750" duration="1530000" />
+      <workItem from="1509311884595" duration="17712000" />
+      <workItem from="1509340013059" duration="645000" />
+      <workItem from="1509342748959" duration="10729000" />
+      <workItem from="1509354903893" duration="356000" />
+      <workItem from="1509386180273" duration="406000" />
+      <workItem from="1509406764926" duration="2516000" />
+      <workItem from="1509655621391" duration="1896000" />
+      <workItem from="1509809585094" duration="474000" />
+      <workItem from="1509810739185" duration="3313000" />
+      <workItem from="1509837871687" duration="11000" />
+      <workItem from="1509942918014" duration="12990000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="114040000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="50" y="24" width="1870" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32368702" sideWeight="0.46600878" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34021738" sideWeight="0.50747067" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49624866" sideWeight="0.5394737" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.49786553" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15241228" sideWeight="0.49624866" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17105263" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15241228" sideWeight="0.50375134" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49624866" sideWeight="0.46052632" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar:///usr/lib/jvm/default-runtime/lib/src.zip!/java.desktop/javax/swing/ImageIcon.java</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/TokenServerView.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/TokenServer.java</url>
+          <line>166</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/TokenServerView.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/TokenServer.java</url>
+          <line>219</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TokenServer.java</url>
+          <line>331</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TokenClient.java</url>
+          <line>181</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TokenClient.java</url>
+          <line>179</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TokenClient.java</url>
+          <line>244</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TokenServer.java</url>
+          <line>335</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="143" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((TokenClient)this).clienteId" custom="TokenClient" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/TokenClientView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClientView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1165#1174#0" expanded="true" />
+            <element signature="e#3828#3829#0" expanded="true" />
+            <element signature="e#3859#3860#0" expanded="true" />
+            <element signature="e#7886#8047#0" expanded="true" />
+            <element signature="e#8046#8047#0" expanded="true" />
+            <element signature="e#8313#9427#0" expanded="true" />
+            <element signature="e#9426#9427#0" expanded="true" />
+            <element signature="e#11554#11555#0" expanded="true" />
+            <element signature="e#11596#11597#0" expanded="true" />
+            <element signature="e#11629#11630#0" expanded="true" />
+            <element signature="e#11658#11659#0" expanded="true" />
+            <element signature="e#12355#12371#0" expanded="true" />
+            <element signature="e#13082#13083#0" expanded="true" />
+            <element signature="e#13117#13118#0" expanded="true" />
+            <element signature="e#13174#13175#0" expanded="true" />
+            <element signature="e#13222#13223#0" expanded="true" />
+            <element signature="e#13258#13259#0" expanded="true" />
+            <element signature="e#13290#13291#0" expanded="true" />
+            <element signature="e#13340#13341#0" expanded="true" />
+            <element signature="e#13382#13383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#578#594#0" expanded="true" />
+            <element signature="e#715#724#0" expanded="true" />
+            <element signature="e#928#1015#0" expanded="true" />
+            <element signature="e#2368#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="e#4033#4049#0" expanded="true" />
+            <element signature="e#4107#4123#0" expanded="true" />
+            <element signature="e#6548#6549#0" expanded="true" />
+            <element signature="e#6580#6581#0" expanded="true" />
+            <element signature="e#8816#8832#0" expanded="true" />
+            <element signature="e#9758#9759#0" expanded="true" />
+            <element signature="e#9804#9805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="113" column="19" lean-forward="false" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClientView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClientView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3706">
+          <caret line="232" column="0" lean-forward="false" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1165#1174#0" expanded="true" />
+            <element signature="e#3828#3829#0" expanded="true" />
+            <element signature="e#3859#3860#0" expanded="true" />
+            <element signature="e#7886#8047#0" expanded="true" />
+            <element signature="e#8046#8047#0" expanded="true" />
+            <element signature="e#8313#9427#0" expanded="true" />
+            <element signature="e#9426#9427#0" expanded="true" />
+            <element signature="e#11554#11555#0" expanded="true" />
+            <element signature="e#11596#11597#0" expanded="true" />
+            <element signature="e#11629#11630#0" expanded="true" />
+            <element signature="e#11658#11659#0" expanded="true" />
+            <element signature="e#12355#12371#0" expanded="true" />
+            <element signature="e#13082#13083#0" expanded="true" />
+            <element signature="e#13117#13118#0" expanded="true" />
+            <element signature="e#13174#13175#0" expanded="true" />
+            <element signature="e#13222#13223#0" expanded="true" />
+            <element signature="e#13258#13259#0" expanded="true" />
+            <element signature="e#13290#13291#0" expanded="true" />
+            <element signature="e#13340#13341#0" expanded="true" />
+            <element signature="e#13382#13383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4726">
+          <caret line="284" column="0" lean-forward="true" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#578#594#0" expanded="true" />
+            <element signature="e#715#724#0" expanded="true" />
+            <element signature="e#928#1015#0" expanded="true" />
+            <element signature="e#2368#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="e#4033#4049#0" expanded="true" />
+            <element signature="e#4107#4123#0" expanded="true" />
+            <element signature="e#6548#6549#0" expanded="true" />
+            <element signature="e#6580#6581#0" expanded="true" />
+            <element signature="e#8816#8832#0" expanded="true" />
+            <element signature="e#9758#9759#0" expanded="true" />
+            <element signature="e#9804#9805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServerView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClientView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2822">
+          <caret line="245" column="65" lean-forward="true" selection-start-line="245" selection-start-column="65" selection-end-line="245" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="53" lean-forward="false" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1165#1174#0" expanded="true" />
+            <element signature="e#3828#3829#0" expanded="true" />
+            <element signature="e#3859#3860#0" expanded="true" />
+            <element signature="e#7886#8047#0" expanded="true" />
+            <element signature="e#8046#8047#0" expanded="true" />
+            <element signature="e#8313#9427#0" expanded="true" />
+            <element signature="e#9426#9427#0" expanded="true" />
+            <element signature="e#11554#11555#0" expanded="true" />
+            <element signature="e#11596#11597#0" expanded="true" />
+            <element signature="e#11629#11630#0" expanded="true" />
+            <element signature="e#11658#11659#0" expanded="true" />
+            <element signature="e#12355#12371#0" expanded="true" />
+            <element signature="e#13082#13083#0" expanded="true" />
+            <element signature="e#13117#13118#0" expanded="true" />
+            <element signature="e#13174#13175#0" expanded="true" />
+            <element signature="e#13222#13223#0" expanded="true" />
+            <element signature="e#13258#13259#0" expanded="true" />
+            <element signature="e#13290#13291#0" expanded="true" />
+            <element signature="e#13340#13341#0" expanded="true" />
+            <element signature="e#13382#13383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="180" column="74" lean-forward="false" selection-start-line="180" selection-start-column="74" selection-end-line="180" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#578#594#0" expanded="true" />
+            <element signature="e#715#724#0" expanded="true" />
+            <element signature="e#928#1015#0" expanded="true" />
+            <element signature="e#2368#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="e#4033#4049#0" expanded="true" />
+            <element signature="e#4107#4123#0" expanded="true" />
+            <element signature="e#6548#6549#0" expanded="true" />
+            <element signature="e#6580#6581#0" expanded="true" />
+            <element signature="e#8816#8832#0" expanded="true" />
+            <element signature="e#9758#9759#0" expanded="true" />
+            <element signature="e#9804#9805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClientView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServerView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="16" lean-forward="false" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2482">
+          <caret line="152" column="8" lean-forward="false" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1165#1174#0" expanded="true" />
+            <element signature="e#3828#3829#0" expanded="true" />
+            <element signature="e#3859#3860#0" expanded="true" />
+            <element signature="e#7886#8047#0" expanded="true" />
+            <element signature="e#8046#8047#0" expanded="true" />
+            <element signature="e#8313#9427#0" expanded="true" />
+            <element signature="e#9426#9427#0" expanded="true" />
+            <element signature="e#11554#11555#0" expanded="true" />
+            <element signature="e#11596#11597#0" expanded="true" />
+            <element signature="e#11629#11630#0" expanded="true" />
+            <element signature="e#11658#11659#0" expanded="true" />
+            <element signature="e#12355#12371#0" expanded="true" />
+            <element signature="e#13082#13083#0" expanded="true" />
+            <element signature="e#13117#13118#0" expanded="true" />
+            <element signature="e#13174#13175#0" expanded="true" />
+            <element signature="e#13222#13223#0" expanded="true" />
+            <element signature="e#13258#13259#0" expanded="true" />
+            <element signature="e#13290#13291#0" expanded="true" />
+            <element signature="e#13340#13341#0" expanded="true" />
+            <element signature="e#13382#13383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="178" column="28" lean-forward="true" selection-start-line="178" selection-start-column="28" selection-end-line="178" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#578#594#0" expanded="true" />
+            <element signature="e#715#724#0" expanded="true" />
+            <element signature="e#928#1015#0" expanded="true" />
+            <element signature="e#2368#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="e#4033#4049#0" expanded="true" />
+            <element signature="e#4107#4123#0" expanded="true" />
+            <element signature="e#6548#6549#0" expanded="true" />
+            <element signature="e#6580#6581#0" expanded="true" />
+            <element signature="e#8816#8832#0" expanded="true" />
+            <element signature="e#9758#9759#0" expanded="true" />
+            <element signature="e#9804#9805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServerView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="99" column="16" lean-forward="false" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="86" lean-forward="false" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1165#1174#0" expanded="true" />
+            <element signature="e#3828#3829#0" expanded="true" />
+            <element signature="e#3859#3860#0" expanded="true" />
+            <element signature="e#7886#8047#0" expanded="true" />
+            <element signature="e#8046#8047#0" expanded="true" />
+            <element signature="e#8313#9427#0" expanded="true" />
+            <element signature="e#9426#9427#0" expanded="true" />
+            <element signature="e#11554#11555#0" expanded="true" />
+            <element signature="e#11596#11597#0" expanded="true" />
+            <element signature="e#11629#11630#0" expanded="true" />
+            <element signature="e#11658#11659#0" expanded="true" />
+            <element signature="e#12355#12371#0" expanded="true" />
+            <element signature="e#13082#13083#0" expanded="true" />
+            <element signature="e#13117#13118#0" expanded="true" />
+            <element signature="e#13174#13175#0" expanded="true" />
+            <element signature="e#13222#13223#0" expanded="true" />
+            <element signature="e#13258#13259#0" expanded="true" />
+            <element signature="e#13290#13291#0" expanded="true" />
+            <element signature="e#13340#13341#0" expanded="true" />
+            <element signature="e#13382#13383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#578#594#0" expanded="true" />
+            <element signature="e#715#724#0" expanded="true" />
+            <element signature="e#928#1015#0" expanded="true" />
+            <element signature="e#2368#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="e#4033#4049#0" expanded="true" />
+            <element signature="e#4107#4123#0" expanded="true" />
+            <element signature="e#6548#6549#0" expanded="true" />
+            <element signature="e#6580#6581#0" expanded="true" />
+            <element signature="e#8816#8832#0" expanded="true" />
+            <element signature="e#9758#9759#0" expanded="true" />
+            <element signature="e#9804#9805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClientView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1165#1174#0" expanded="true" />
+            <element signature="e#3828#3829#0" expanded="true" />
+            <element signature="e#3859#3860#0" expanded="true" />
+            <element signature="e#7886#8047#0" expanded="true" />
+            <element signature="e#8046#8047#0" expanded="true" />
+            <element signature="e#8313#9427#0" expanded="true" />
+            <element signature="e#9426#9427#0" expanded="true" />
+            <element signature="e#11554#11555#0" expanded="true" />
+            <element signature="e#11596#11597#0" expanded="true" />
+            <element signature="e#11629#11630#0" expanded="true" />
+            <element signature="e#11658#11659#0" expanded="true" />
+            <element signature="e#12355#12371#0" expanded="true" />
+            <element signature="e#13082#13083#0" expanded="true" />
+            <element signature="e#13117#13118#0" expanded="true" />
+            <element signature="e#13174#13175#0" expanded="true" />
+            <element signature="e#13222#13223#0" expanded="true" />
+            <element signature="e#13258#13259#0" expanded="true" />
+            <element signature="e#13290#13291#0" expanded="true" />
+            <element signature="e#13340#13341#0" expanded="true" />
+            <element signature="e#13382#13383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#578#594#0" expanded="true" />
+            <element signature="e#715#724#0" expanded="true" />
+            <element signature="e#928#1015#0" expanded="true" />
+            <element signature="e#2368#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="e#4033#4049#0" expanded="true" />
+            <element signature="e#4107#4123#0" expanded="true" />
+            <element signature="e#6548#6549#0" expanded="true" />
+            <element signature="e#6580#6581#0" expanded="true" />
+            <element signature="e#8816#8832#0" expanded="true" />
+            <element signature="e#9758#9759#0" expanded="true" />
+            <element signature="e#9804#9805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/default-runtime/lib/src.zip!/java.desktop/javax/swing/ImageIcon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="216" column="0" lean-forward="false" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+          <folding>
+            <element signature="e#6742#6743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cliente3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="178" column="75" lean-forward="false" selection-start-line="178" selection-start-column="71" selection-end-line="178" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServerView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projetos/libs/java/ekit/com/hexidec/ekit/component/ExtendedHTMLEditorKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="43" column="47" lean-forward="false" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/default-runtime/lib/src.zip!/java.desktop/javax/swing/text/DefaultEditorKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/default-runtime/lib/src.zip!/java.desktop/javax/swing/text/StyledEditorKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/default-runtime/lib/src.zip!/java.desktop/javax/swing/text/html/HTMLEditorKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="164" column="39" lean-forward="true" selection-start-line="164" selection-start-column="39" selection-end-line="164" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/default-runtime/lib/src.zip!/java.desktop/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="714" column="16" lean-forward="false" selection-start-line="714" selection-start-column="16" selection-end-line="714" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projetos/libs/java/ekit/com/hexidec/ekit/EkitApplet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="37" column="49" lean-forward="false" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projetos/libs/java/ekit/com/hexidec/ekit/EkitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="353" column="28" lean-forward="false" selection-start-line="353" selection-start-column="28" selection-end-line="353" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/default-runtime/lib/src.zip!/java.desktop/java/awt/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="511" column="16" lean-forward="false" selection-start-line="511" selection-start-column="16" selection-end-line="511" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/projetos/libs/java/ekit/com/hexidec/ekit/Ekit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-942">
+          <caret line="140" column="11" lean-forward="false" selection-start-line="140" selection-start-column="11" selection-end-line="140" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Document.java" />
+    <entry file="jar:///usr/lib/jvm/default-runtime/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792">
+          <caret line="794" column="29" lean-forward="false" selection-start-line="794" selection-start-column="29" selection-end-line="794" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/default-runtime/lib/src.zip!/java.base/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8806">
+          <caret line="555" column="0" lean-forward="false" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClientView.java.bkp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cliente2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cliente1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="180" column="12" lean-forward="false" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="66" column="62" lean-forward="false" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClientView.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/default-runtime/lib/src.zip!/java.base/java/net/DatagramSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="655" column="16" lean-forward="false" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="349" column="8" lean-forward="false" selection-start-line="349" selection-start-column="8" selection-end-line="349" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#578#594#0" expanded="true" />
+            <element signature="e#715#724#0" expanded="true" />
+            <element signature="e#928#1015#0" expanded="true" />
+            <element signature="e#2368#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="e#4033#4049#0" expanded="true" />
+            <element signature="e#4107#4123#0" expanded="true" />
+            <element signature="e#6548#6549#0" expanded="true" />
+            <element signature="e#6580#6581#0" expanded="true" />
+            <element signature="e#8816#8832#0" expanded="true" />
+            <element signature="e#9758#9759#0" expanded="true" />
+            <element signature="e#9804#9805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="321" column="43" lean-forward="true" selection-start-line="321" selection-start-column="43" selection-end-line="321" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1165#1174#0" expanded="true" />
+            <element signature="e#3828#3829#0" expanded="true" />
+            <element signature="e#3859#3860#0" expanded="true" />
+            <element signature="e#7886#8047#0" expanded="true" />
+            <element signature="e#8046#8047#0" expanded="true" />
+            <element signature="e#8313#9427#0" expanded="true" />
+            <element signature="e#9426#9427#0" expanded="true" />
+            <element signature="e#11554#11555#0" expanded="true" />
+            <element signature="e#11596#11597#0" expanded="true" />
+            <element signature="e#11629#11630#0" expanded="true" />
+            <element signature="e#11658#11659#0" expanded="true" />
+            <element signature="e#12355#12371#0" expanded="true" />
+            <element signature="e#13082#13083#0" expanded="true" />
+            <element signature="e#13117#13118#0" expanded="true" />
+            <element signature="e#13174#13175#0" expanded="true" />
+            <element signature="e#13222#13223#0" expanded="true" />
+            <element signature="e#13258#13259#0" expanded="true" />
+            <element signature="e#13290#13291#0" expanded="true" />
+            <element signature="e#13340#13341#0" expanded="true" />
+            <element signature="e#13382#13383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TokenClientView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#2370#2371#0" expanded="true" />
+            <element signature="e#2424#2425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>tokenring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>src</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Unifei</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
